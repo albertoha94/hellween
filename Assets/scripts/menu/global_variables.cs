@@ -10,5 +10,5 @@ using System.Collections;
 public class global_variables : MonoBehaviour {
 
 	//-- Variables.
-	public static int GAME;
+	public static int game;
 }

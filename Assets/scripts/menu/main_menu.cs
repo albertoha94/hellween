@@ -14,7 +14,11 @@ public class main_menu : MonoBehaviour {
 	 * Manda a la escena de recombina single.
 	 */
 	public void goToRecSingle() {
-		global_variables.GAME = constants.GAMEMODE_RECSINGLE;
+		global_variables.game = constants.GAMEMODE_RECSINGLE;
 		SceneManager.LoadScene("game");
+	}
+
+	public void goToMenu() {
+		SceneManager.LoadScene("menu");
 	}
 }
